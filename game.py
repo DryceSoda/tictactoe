@@ -21,7 +21,7 @@ def check_winner(board, player):
 
 def is_board_full(board):
     for row in board:
-        for " " in row:
+        if " " in row:
             return False
     return True
 
